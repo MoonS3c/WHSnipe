@@ -5,33 +5,34 @@ const Chalk = require("chalk")
 //Variables
 const Self_Args = process.argv.slice(2)
 
-var Self = {}
-Self.headers = {
-    security: [
-        "x-xss-protection",
-        "x-frame-options",
-        "x-content-type-options",
-        "strict-transport-security",
-        "content-security-policy",
-        "x-permitted-cross-domain-policies",
-        "referrer-policy",
-        "expect-ct",
-        "permissions-policy",
-        "cross-origin-embedder-policy",
-        "cross-origin-resource-policy",
-        "cross-origin-opener-policy"
-    ],
-    information: [
-        "x-powered-by",
-        "server"
-    ],
-    cache: [
-        "cache-control",
-        "pragma",
-        "last-modified",
-        "expires",
-        "etag"
-    ]
+var Self = {
+    headers: {
+        security: [
+            "x-xss-protection",
+            "x-frame-options",
+            "x-content-type-options",
+            "strict-transport-security",
+            "content-security-policy",
+            "x-permitted-cross-domain-policies",
+            "referrer-policy",
+            "expect-ct",
+            "permissions-policy",
+            "cross-origin-embedder-policy",
+            "cross-origin-resource-policy",
+            "cross-origin-opener-policy"
+        ],
+        information: [
+            "x-powered-by",
+            "server"
+        ],
+        cache: [
+            "cache-control",
+            "pragma",
+            "last-modified",
+            "expires",
+            "etag"
+        ]
+    }
 }
 
 //Main
