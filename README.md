@@ -1,4 +1,5 @@
 <h1 align="center">WHSnipe</h1>
+<h1 align="center">WHSnipe in MoonS3c is no longer maintained and has been transfered to I2rys. It's now called <a href="https://github.com/I2rys/WHSniper">WHSniper</a> </h1>
 <h4 align="center">Website cache, information & security headers scanner</h4>
 <p align="center">
 	<a href="https://github.com/MoonS3c/WHSnipe/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MoonS3c/WHSnipe?style=flat-square"></img></a>
